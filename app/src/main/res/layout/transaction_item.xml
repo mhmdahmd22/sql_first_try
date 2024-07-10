@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/transDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TransDate" />
+
+    <TextView
+        android:id="@+id/transTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TransTime" />
+
+    <TextView
+        android:id="@+id/pan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAN" />
+
+    <TextView
+        android:id="@+id/aplAr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AplAr" />
+
+    <TextView
+        android:id="@+id/amountAr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AmountAr" />
+</LinearLayout>
